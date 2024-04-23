@@ -9,7 +9,7 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/youmark/pkcs8"
+	"github.com/elastic/pkcs8"
 )
 
 const rsa2048 = `-----BEGIN PRIVATE KEY-----

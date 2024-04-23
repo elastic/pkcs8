@@ -5,18 +5,11 @@ OpenSSL can generate private keys in both "traditional format" and PKCS#8 format
 pkcs8 package fills the gap here. It implements functions to process private keys in PKCS#8 format, as defined in [RFC5208](https://tools.ietf.org/html/rfc5208) and [RFC5958](https://tools.ietf.org/html/rfc5958). It can handle both unencrypted PKCS#8 PrivateKeyInfo format and EncryptedPrivateKeyInfo format with PKCS#5 (v2.0) algorithms.
 
 
-[**Godoc**](http://godoc.org/github.com/youmark/pkcs8)
+[**Godoc**](http://godoc.org/github.com/elastic/pkcs8)
 
 ## Installation
-Supports Go 1.10+. Release v1.1 is the last release supporting Go 1.9 
+Supports Go 1.12+.
 
 ```text
-go get github.com/youmark/pkcs8
+go get github.com/elastic/pkcs8
 ```
-## dependency
-This package depends on golang.org/x/crypto/pbkdf2 and golang.org/x/crypto/scrypt packages. Use the following command to retrieve them
-```text
-go get golang.org/x/crypto/pbkdf2
-go get golang.org/x/crypto/scrypt
-```
-
